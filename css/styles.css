@@ -31,9 +31,6 @@ body {
 .site-nav {
   display: flex;
   margin-left: 93px;
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -81,8 +78,6 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  outline: 2px solid tomato;
 }
 .box-header {
   height: 80px;
@@ -92,6 +87,10 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .solutions-title {
   color: #ffffff;
   font-weight: 900;
@@ -99,9 +98,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   padding-top: 200px;
-  padding-bottom: 0;
-  margin-top: 0px;
-  margin-bottom: 0;
+  padding-bottom: 30px;
 }
 .solutions {
   background-color: #2f303a;
@@ -113,8 +110,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin-bottom: 0;
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 .section-list,
@@ -139,9 +134,7 @@ body {
   display: flex;
   padding: 0;
 }
-.section-comand {
-  margin-bottom: 94px;
-}
+
 .section-comand + .section-comand {
   margin-left: 30px;
 }
@@ -161,7 +154,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  margin-top: 94px;
 }
 .section-work {
   color: var(--primary-text-color);
@@ -201,7 +193,6 @@ body {
   border-radius: 4px;
   padding: 10px 32px;
   margin-bottom: 200px;
-  margin-top: 30px;
 }
 .box {
   width: 270px;
@@ -262,12 +253,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   padding: 6px 22px;
+  margin-bottom: 50px;
 }
-.filter {
-  padding-top: 94px;
-  padding-bottom: 50px;
-  outline: 2px solid tomato;
-}
+
 .section-list-second {
   display: flex;
   justify-content: center;
