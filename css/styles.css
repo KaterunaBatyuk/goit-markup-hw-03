@@ -259,6 +259,7 @@ body {
 .button-secondary:hover,
 .button-secondary:focus {
   background-color: var(--accent-color);
+  color: #ffffff;
 }
 img {
   display: block;
