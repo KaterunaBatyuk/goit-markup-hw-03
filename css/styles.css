@@ -196,7 +196,7 @@ body {
 .footer {
   background-color: #2f303a;
 }
-.footer a {
+.footer .logo {
   display: block;
   margin-bottom: 20px;
 }
